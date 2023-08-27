@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University web design</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+                <ul>
+                    <li><a href="/" >Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Course</a></li>
+                    <li><a href="/contactPage">Contact us</a></li>
+                </ul>
+            </div>
+             <!-- <i class="fa fa-bars" "></i> -->
+            <i class="fa fa-bars " onclick="showMenu()"></i> 
+        </nav>
+
+
+        <div class="page">
+    
+   
+
+            <h1>Fill This Form to join our University</h1>
+            <form action="/" method="post" id="contact">
+        
+              <input type="text" name="name" id="name" placeholder="Enter your Name" >
+              <input type="text" name="gender" id="name" placeholder="Enter your Gender" >
+              <input type="number" name="contact_number" id="number" placeholder="Enter your Contact Number" >
+              <input type="email" name="mail" id="mail" placeholder="Enter your email">
+              <textarea name="address" id="address" cols="30" rows="5" placeholder="Enter your Address"></textarea>
+              <button type="submit" id="btn"> Submit </button>
+              
+              
+        
+        
+            </form>
+          </div>
+    </section >
+
+   
+  </body>
+</html>
